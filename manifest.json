@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "contextMenus","activeTab","scripting"],
+    "name": "whatsapp syntax highlighter",
+    
+    "content_scripts": [
+        {
+          "matches": ["*://web.whatsapp.com/*"],
+          "js": ["scripts/inject.js","scripts/h1.js", "scripts/h2.js"],
+          "css": ["css/dark.css"]
+        }
+      ]
+
+  }
