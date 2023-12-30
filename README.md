@@ -1,6 +1,8 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/qmigo/WhtsapSyntaxHighlighter/icons/icon128.png alt="Logo"/><br/>
-	WhtsapSyntaxHighlighter
+	
+![icon](https://github.com/qmigo/WhtsapSyntaxHighlighter/assets/39450902/cc8388ab-398c-4e1e-bc26-c361c7fb769b)
+
+WhtsapSyntaxHighlighter
 	
 </h3>
 
@@ -13,10 +15,10 @@
 # Installation Instructions
 **Google Chrome / Microsoft Edge**
 1. Download this repo as a [ZIP file from GitHub](https://github.com/qmigo/WhtsapSyntaxHighlighter/archive/master.zip)
-2. Unzip the file and you should have a folder named `WhtsapSyntaxHighlighter-main`.
-3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
-4. Enable Developer Mode.
-5. Drag the `WhtsapSyntaxHighlighter-main` folder anywhere on the page to import it (do not delete the folder afterwards).
+2. Unzip the file and you should have a folder named `WhtsapSyntaxHighlighter-main`
+3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`)
+4. Enable Developer Mode
+5. Drag the `WhtsapSyntaxHighlighter-main` folder anywhere on the page to import it (do not delete the folder afterwards)
 
 **Mozilla Firefox**
 * Download and install the addon from [here](https://addons.mozilla.org/en-US/firefox/addon/whatsapp-syntax-highlighter)
