@@ -7,12 +7,16 @@
 WhtsapSyntaxHighlighter
 	
 </h3>
-
 <p align="center">
 	<a href="https://github.com/qmigo/WhtsapSyntaxHighlighter/stargazers"><img src="https://img.shields.io/github/stars/qmigo/WhtsapSyntaxHighlighter?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 	<a href="https://github.com/qmigo/WhtsapSyntaxHighlighter/issues"><img src="https://img.shields.io/github/issues/qmigo/WhtsapSyntaxHighlighter?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 	<a href="https://github.com/qmigo/WhtsapSyntaxHighlighter/contributors"><img src="https://img.shields.io/github/contributors/qmigo/WhtsapSyntaxHighlighter?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
+
+
+
+
+
 
 # Installation Instructions
 **Google Chrome / Microsoft Edge**
@@ -28,6 +32,12 @@ WhtsapSyntaxHighlighter
 **Notes**
 * Every time you open Chrome it may warn you about running extensions in developer mode, just click  &#10005; to keep the extension enabled.
 
+
+<hr>
+
+<img width="490" alt="image" src="https://github.com/qmigo/WhtsapSyntaxHighlighter/assets/39450902/c8e381ca-aa73-45a4-a899-976e7ae534a5">
+
+<img width="500" alt="image" src="https://github.com/qmigo/WhtsapSyntaxHighlighter/assets/39450902/0db59e55-f02d-4a0e-9b11-89a479799ae1">
 
 # Usage
 1. Code must be enclosed in 3 backticks  \```{your code here}\```.
