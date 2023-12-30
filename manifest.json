@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "permissions": ["storage", "contextMenus","activeTab","scripting"],
-    "name": "whatsapp syntax highlighter",
+    "name": "WhtsapSyntaxHighlighter",
     
     "content_scripts": [
         {
