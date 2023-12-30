@@ -1,14 +1,27 @@
-function copyToClipboard(text) {
+function giveMessage() {
+  const bodyTag = document.getElementsByTagName('body')[0];
+  bodyTag.style.position='relative';
+  const messageDiv = document.createElement('div');
+  messageDiv.classList = "custom-pop-up-msg";
+  messageDiv.innerHTML="Message copied to clipboard";
+  bodyTag.append(messageDiv);
+  setTimeout(()=>{
+    messageDiv.remove();
+  },1000)
+  
+}
 
+function copyToClipboard(text) {
   if (navigator.clipboard) {
     navigator.clipboard.writeText(text)
   } 
 }
 
 function copyContent(e) {
+  e.preventDefault();
   const textToCopy = e.target.innerText;
   copyToClipboard(textToCopy);
-  alert("Code copied");
+  giveMessage();
 }
 
 function openReadMore() {
@@ -38,7 +51,7 @@ function start() {
         }
         const duplicateCodeTag = codeTag.outerHTML;
         const preElement = document.createElement('pre');
-        preElement.addEventListener('click', copyContent);
+        preElement.addEventListener('contextmenu', copyContent);
         preElement.classList += " extension-dark-bg"
         preElement.innerHTML = duplicateCodeTag;
         codeTag.parentNode.insertBefore(preElement, codeTag);
