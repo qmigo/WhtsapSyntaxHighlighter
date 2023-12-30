@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/qmigo/WhtsapSyntaxHighlighter/blob/main/icons/icon128.png alt="Logo"/><br/>
 	WhtsapSyntaxHighlighter
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	
 </h3>
 
 <p align="center">
