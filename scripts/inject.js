@@ -1,3 +1,16 @@
+function copyToClipboard(text) {
+
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text)
+  } 
+}
+
+function copyContent(e) {
+  const textToCopy = e.target.innerText;
+  copyToClipboard(textToCopy);
+  alert("Code copied");
+}
+
 function openReadMore() {
   const readMoreBtns = document.getElementsByClassName("read-more-button");
     for(const btn of readMoreBtns) {
@@ -25,6 +38,7 @@ function start() {
         }
         const duplicateCodeTag = codeTag.outerHTML;
         const preElement = document.createElement('pre');
+        preElement.addEventListener('click', copyContent);
         preElement.classList += " extension-dark-bg"
         preElement.innerHTML = duplicateCodeTag;
         codeTag.parentNode.insertBefore(preElement, codeTag);
