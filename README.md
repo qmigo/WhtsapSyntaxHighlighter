@@ -1,6 +1,5 @@
 <h3 align="center">
 	
-![icon](https://github.com/qmigo/WhtsapSyntaxHighlighter/assets/39450902/cc8388ab-398c-4e1e-bc26-c361c7fb769b)
 ![Example Image](icons/icon128.png)
 WhtsapSyntaxHighlighter
 	
