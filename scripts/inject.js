@@ -96,6 +96,7 @@ function checkDocumentLoaded() {
     const personTiles = document.querySelector('._3YS_f._2A1R8');
     personTiles.addEventListener('click',()=>{
       newMsgAdded();
+      startsetup();
     });
 
    
