@@ -1,6 +1,8 @@
 <h3 align="center">
-	
+
+<div align="center">
 ![Example Image](icons/icon128.png)
+</div>
 WhtsapSyntaxHighlighter
 	
 </h3>
