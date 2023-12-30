@@ -15,8 +15,14 @@ function start() {
     if (data) {
 
       const codeTags = data.getElementsByTagName('code');
-    
+      
       for (const codeTag of codeTags) {
+        
+        var parentPreNode = codeTag.parentNode;
+
+        if (parentPreNode && parentPreNode.tagName && parentPreNode.tagName.toLowerCase() === "pre") {
+        continue;
+        }
         const duplicateCodeTag = codeTag.outerHTML;
         const preElement = document.createElement('pre');
         preElement.classList += " extension-dark-bg"

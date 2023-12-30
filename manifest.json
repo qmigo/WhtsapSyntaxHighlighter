@@ -8,7 +8,7 @@
         {
           "matches": ["*://web.whatsapp.com/*"],
           "js": ["scripts/inject.js","scripts/h1.js", "scripts/h2.js"],
-          "css": ["css/dark.css"]
+          "css": ["css/catppuccin.css"]
         }
       ]
 
