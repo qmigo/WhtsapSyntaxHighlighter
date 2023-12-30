@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/qmigo/WhtsapSyntaxHighlighter/blob/main/icons/icon128.png alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/qmigo/WhtsapSyntaxHighlighter/icons/icon128.png alt="Logo"/><br/>
 	WhtsapSyntaxHighlighter
 	
 </h3>
