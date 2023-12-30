@@ -12,7 +12,7 @@ function start() {
   for (let node of nodes) {
 
     const data = node.querySelector("._11JPr>span");
-    console.log(data);
+
     if (data) {
 
       const CodeTag = data.querySelector('code');
@@ -39,10 +39,15 @@ function startsetup() {
 }
 
 function contentChangeCallback(mutationsList, observer) {
-  console.log("changed")
   startsetup();
 }
 
+function newMsgAdded() {
+  const targetNode = document.querySelector('.n5hs2j7m.oq31bsqd.gx1rr48f.qh5tioqs');
+  const config = { childList: true, subtree: false };
+  const observer = new MutationObserver(contentChangeCallback);
+  observer.observe(targetNode, config);
+}
 
 let timerToChat;
 
@@ -50,17 +55,14 @@ function checkDocumentLoaded() {
   const chatWindow = document.querySelector('#main');
   if (chatWindow) {
 
-    startsetup();
+    newMsgAdded();
 
     const personTiles = document.querySelector('._3YS_f._2A1R8');
-    personTiles.addEventListener('click',startsetup);
+    personTiles.addEventListener('click',()=>{
+      newMsgAdded();
+    });
 
-    const targetNode = document.querySelector('.n5hs2j7m.oq31bsqd.gx1rr48f.qh5tioqs');
-    const config = { childList: true, subtree: false };
-
-    const observer = new MutationObserver(contentChangeCallback);
-
-    observer.observe(targetNode, config);
+   
     timerToChat.clearTimeout;
     
   } else {
