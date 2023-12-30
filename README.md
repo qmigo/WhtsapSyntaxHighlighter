@@ -29,7 +29,6 @@
 1. Code must be enclosed in 3 backticks  \```{your code here}\```.
 2. Press Send.
 3. syntax highlighting is applied automatically according to the language.
-4. Right click the code when the cursor becomes hand to copy the complete code.
 
 ## Additional Features
 - Different themes available
