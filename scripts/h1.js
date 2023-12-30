@@ -104,7 +104,7 @@
     n&&(t=t.map((e=>e.toLowerCase()))),t.forEach((n=>{const t=n.split("|")
     ;a[t[0]]=[e,j(t[0],t[1])]}))}}function j(e,n){
     return n?Number(n):(e=>z.includes(e.toLowerCase()))(e)?0:1}const P={},K=e=>{
-    console.error(e)},H=(e,...n)=>{console.log("WARN: "+e,...n)},q=(e,n)=>{
+    console.error(e)},H=(e,...n)=>{console.log()},q=(e,n)=>{
     P[`${e}/${n}`]||(console.log(`Deprecated as of ${e}. ${n}`),P[`${e}/${n}`]=!0)
     },G=Error();function Z(e,n,{key:t}){let a=0;const i=e[t],r={},s={}
     ;for(let e=1;e<=n.length;e++)s[e+a]=i[e],r[e+a]=!0,a+=p(n[e-1])

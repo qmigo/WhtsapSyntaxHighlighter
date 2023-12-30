@@ -12,15 +12,18 @@ function start() {
   for (let node of nodes) {
 
     const data = node.querySelector("._11JPr>span");
-
     if (data) {
 
-      const CodeTag = data.querySelector('code');
-      if(CodeTag) {
+      const codeTags = data.getElementsByTagName('code');
+    
+      for (const codeTag of codeTags) {
+        const duplicateCodeTag = codeTag.outerHTML;
         const preElement = document.createElement('pre');
         preElement.classList += " extension-dark-bg"
-        preElement.appendChild(CodeTag);
-        data.appendChild(preElement)
+        preElement.innerHTML = duplicateCodeTag;
+        codeTag.parentNode.insertBefore(preElement, codeTag);
+        codeTag.remove();
+        
       }
       
     }
@@ -54,7 +57,7 @@ let timerToChat;
 function checkDocumentLoaded() {
   const chatWindow = document.querySelector('#main');
   if (chatWindow) {
-
+    startsetup();
     newMsgAdded();
 
     const personTiles = document.querySelector('._3YS_f._2A1R8');
