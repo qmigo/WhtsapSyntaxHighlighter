@@ -27,7 +27,7 @@ function start() {
     const data = node.querySelector("._11JPr>span");
     if (data) {
 
-      const codeTags = data.getElementsByTagName('code');
+      const codeTags = data.querySelectorAll('code._11JPr:not(.ho9ovbg7)');
       
       for (const codeTag of codeTags) {
         
