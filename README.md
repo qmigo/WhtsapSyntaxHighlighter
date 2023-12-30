@@ -10,11 +10,6 @@
 	<a href="https://github.com/qmigo/WhtsapSyntaxHighlighter/contributors"><img src="https://img.shields.io/github/contributors/qmigo/WhtsapSyntaxHighlighter?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
-</p>
-
-
 # Installation Instructions
 **Google Chrome / Microsoft Edge**
 1. Download this repo as a [ZIP file from GitHub](https://github.com/qmigo/WhtsapSyntaxHighlighter/archive/master.zip)
@@ -46,7 +41,7 @@
 .
 <br>
 
->## Note:
+>## Note
 >This extension prioritizes user privacy. We do not collect or store any user data. Your security is our utmost concern.
 <p align="center">
 	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
