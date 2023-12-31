@@ -2,6 +2,7 @@
     "version": "2.0.0",
     "manifest_version": 3,
     "permissions": ["storage", "contextMenus","activeTab","scripting"],
+    "description": "Detects and highlight your code syntax in Whatsapp Web",
     "name": "Whatsapp Syntax Highlighter",
     "action": {
       "default_title": "Whatsapp Syntax Highlighter",
