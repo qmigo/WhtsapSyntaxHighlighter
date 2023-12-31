@@ -58,7 +58,7 @@ WhtsapSyntaxHighlighter
 >## Note
 >This extension prioritizes user privacy. We do not collect or store any user data. Your security is our utmost concern.
 <p align="center">
-	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=GPL3&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
 
 
