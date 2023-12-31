@@ -49,10 +49,30 @@ WhtsapSyntaxHighlighter
 - Easy copy with right click on code snippet
 
 # Themes
--todo
-.
-.
-.
+<details><summary>Dark Theme</summary>
+<p>
+	
+- atom-one-dark
+	
+- catppuccino
+  
+- dark
+  
+- dracula
+  
+- github-dark
+  
+- night-owl
+  
+- nord
+  
+- shades-of-purple
+  
+- synth
+
+</p>
+</details>
+
 <br>
 
 >## Note
