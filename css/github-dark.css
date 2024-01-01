@@ -1,3 +1,17 @@
+.custom-pop-up-msg {
+  top: 10%;
+  left: 50%;
+  z-index: 1000;
+  position: relative;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px; /* Padding for the message */
+  border-radius: 5px; /* Rounded corners */
+  
+  
+} 
 .extension-dark-bg{
     background-color: #0d1117;
     padding: 4px 10px;
