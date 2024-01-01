@@ -49,12 +49,15 @@ WhtsapSyntaxHighlighter
 - Easy copy with right click on code snippet
 
 # Themes
+
+To change themes edit the _manifest.json_ file , in `content_scripts.css` (circa line 25) type a different available theme (e.g. "css/atom-one-dark").
+
 <details><summary>Dark Theme</summary>
 <p>
 	
 - atom-one-dark
 	
-- catppuccino
+- catppuccin
   
 - dark
   
