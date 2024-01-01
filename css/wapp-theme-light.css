@@ -1,0 +1,112 @@
+.custom-pop-up-msg {
+    top: 10%;
+    left: 50%;
+    z-index: 1000;
+    position: relative;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px; /* Padding for the message */
+    border-radius: 5px; /* Rounded corners */
+    
+    
+  }
+    
+  
+  .hljs {
+      color: #111b21;
+    }
+    
+    /* Comment */
+    .hljs-comment,
+    .hljs-quote {
+      color: #8e8e8e;
+      font-style: italic;
+    }
+    
+    /* Red */
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-tag,
+    .hljs-name,
+    .hljs-selector-id,
+    .hljs-selector-class,
+    .hljs-regexp,
+    .hljs-deletion {
+      color: #DF3B57;
+      font-weight: bold;
+    }
+    
+    /* Orange */
+    
+    .hljs-built_in,
+    .hljs-literal,
+    .hljs-type,
+    .hljs-params,
+    .hljs-meta,
+    .hljs-link {
+      color: #E67F0D;
+    }
+    
+    /* Yellow */
+    .hljs-number,
+    .hljs-attribute {
+      color: #6F73D2;
+      font-weight: bold;
+    }
+    
+    /* Green */
+    .hljs-string,
+    .hljs-symbol,
+    .hljs-bullet,
+    .hljs-addition {
+      color: #00A9A5;
+      font-weight: bold;
+    }
+    
+    /* Blue */
+    .hljs-title,
+    .hljs-section {
+      color: #336699;
+      font-weight: bold;
+    }
+    
+    /* Purple */
+    .hljs-keyword,
+    .hljs-selector-tag {
+      color: #732C2C;
+      font-weight: bold ;
+    }
+    
+    .hljs-emphasis {
+      font-style: italic;
+    }
+    
+    .hljs-strong {
+      font-weight: bold;
+    }
+    
+    @media screen and (-ms-high-contrast: active) {
+      .hljs-addition,
+      .hljs-attribute,
+      .hljs-built_in,
+      .hljs-bullet,
+      .hljs-comment,
+      .hljs-link,
+      .hljs-literal,
+      .hljs-meta,
+      .hljs-number,
+      .hljs-params,
+      .hljs-string,
+      .hljs-symbol,
+      .hljs-type,
+      .hljs-quote {
+            color: highlight;
+        }
+    
+        .hljs-keyword,
+        .hljs-selector-tag {
+            font-weight: bold;
+        }
+    }
