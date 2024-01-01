@@ -22,7 +22,7 @@
           "matches": ["*://web.whatsapp.com/*"],
           "js": ["scripts/inject.js","scripts/h1.js", "scripts/h2.js"],
           "run_at": "document_start",
-          "css": ["css/dracula.css"]
+          "css": ["css/catppuccin.css"]
         }
       ]
   }
