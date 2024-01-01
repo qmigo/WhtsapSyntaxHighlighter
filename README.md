@@ -51,7 +51,12 @@ WhtsapSyntaxHighlighter
 
 # Themes
 
-To change themes edit the _manifest.json_ file , in `content_scripts.css` (circa line 25) type a different available theme (e.g. "css/atom-one-dark").
+- To change themes edit the _manifest.json_ file
+- inside manifest.json... edit the `content_scripts.css` (circa line 25) type a different available theme (e.g. "css/atom-one-dark").
+- reload the extension (go to manage extension and click reload below the extension name)
+- reload the whatsapp web
+<br>
+<br>
 
 <details><summary>Dark Theme</summary>
 <p>
