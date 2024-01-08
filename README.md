@@ -27,9 +27,6 @@ WhtsapSyntaxHighlighter
 4. Enable Developer Mode
 5. Drag the `WhtsapSyntaxHighlighter-main` folder anywhere on the page to import it (do not delete the folder afterwards)
 
-**Mozilla Firefox**
-* Download and install the addon from [here](https://addons.mozilla.org/en-US/firefox/addon/whatsapp-syntax-highlighter)
-
 **Notes**
 * Every time you open Chrome it may warn you about running extensions in developer mode, just click  &#10005; to keep the extension enabled.
 
