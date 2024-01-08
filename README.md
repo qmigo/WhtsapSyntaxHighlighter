@@ -20,7 +20,7 @@ WhtsapSyntaxHighlighter
 
 
 # Installation Instructions
-**Google Chrome / Microsoft Edge**
+
 1. Download this repo as a [ZIP file from GitHub](https://github.com/qmigo/WhtsapSyntaxHighlighter/archive/master.zip)
 2. Unzip the file and you should have a folder named `WhtsapSyntaxHighlighter-main`
 3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`)
